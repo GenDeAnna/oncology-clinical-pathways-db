@@ -7,9 +7,10 @@ This repository addresses a critical gap in modern healthcare informatics: the t
 
 In essence, this system acts as an automated matchmaker between a patient's unique biological fingerprint and the global standard of oncology care.
 
-## Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 - **Database Architecture:** A relational SQL database structure defining oncology diagnostic criteria (ICD-10), multi-variable pathology biomarker arrays, and automated protocol sets.
 - **Logic Engine:** An algorithmic Python script utilizing conditional branching logic (`if/elif/else`) to traverse clinical parameters and automate protocol mapping.
+- **User Interface Simulation:** A Python-native Streamlit web-application engine (`ui/app.py`) built to replicate point-of-care user interaction, text parameter selections, and real-time conditional treatment rendering.
 - **Interoperability Framework:** Standardized database schemas engineered for machine-readable integration with clinical data pipelines (e.g., Epic Beacon, Aria) via simulated workflows.
 
 ## Database Schema Blueprint
